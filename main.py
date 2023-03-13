@@ -9,7 +9,8 @@ test_font = pygame.font.Font('UltimatePygameIntro/font/Pixeltype.ttf', 50) #*(fo
 text_surface = test_font.render("My game", False, 'Black')
 
 snail_surface = pygame.image.load('UltimatePygameIntro/graphics/snail/snail1.png').convert_alpha()
-snail_x_pos = 700
+snail_rectangle = snail_surface.get_rect(bottomright = (600, 300))
+# snail_x_pos = 700
 
 player_surface = pygame.image.load('UltimatePygameIntro/graphics/Player/player_stand.png').convert_alpha()
 player_rectangle = player_surface.get_rect(topleft = (0, 225))
@@ -26,11 +27,21 @@ while True:
     screen.blit(sky_surface, (0,0))
     screen.blit(ground_surface, (0,300))
     screen.blit(text_surface, (300, 50))
-    snail_x_pos -= 3
-    if snail_x_pos < -50: snail_x_pos = 800
-    screen.blit(snail_surface, (snail_x_pos, 275))
+    
+   
+    
+    snail_rectangle.x -= 4
+    snail_rectangle.x -= 3
+    if snail_rectangle.x < -50: 
+        snail_rectangle.x = 800
+    
+    screen.blit(snail_surface, snail_rectangle)
+    
     player_rectangle.left += 1
+    
     screen.blit(player_surface, player_rectangle)
+    
+    # player_rectangle.collidedict(snail_rectangle)
     
     pygame.display.update()
     clock.tick(60)
