@@ -8,6 +8,7 @@ clock = pygame.time.Clock()
 test_font = pygame.font.Font('UltimatePygameIntro/font/Pixeltype.ttf', 50) #*(font type, font size)
 text_surface = test_font.render("My game", False, 'Black')
 
+
 snail_surface = pygame.image.load('UltimatePygameIntro/graphics/snail/snail1.png').convert_alpha()
 snail_rectangle = snail_surface.get_rect(bottomright = (600, 300))
 # snail_x_pos = 700
@@ -23,6 +24,8 @@ while True:
         if event.type == pygame.QUIT:
             pygame.quit()
             exit()
+        if event.type == pygame.MOUSEMOTION:
+            print(event.pos)
     
     screen.blit(sky_surface, (0,0))
     screen.blit(ground_surface, (0,300))
@@ -41,7 +44,12 @@ while True:
     
     screen.blit(player_surface, player_rectangle)
     
-    # player_rectangle.collidedict(snail_rectangle)
+    if(player_rectangle.colliderect(snail_rectangle)):
+        print('collision')
+        
+    mouse_pos = pygame.mouse.get_pos()
+    if player_rectangle.collidepoint(mouse_pos):
+        print(pygame.mouse.get_pressed())
     
     pygame.display.update()
     clock.tick(60)
