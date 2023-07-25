@@ -26,8 +26,6 @@ To run the Game Selector script, you can follow these steps to set up a virtual 
 
 `source venv/bin/activate`
 
-Save to grepper
-
 1.  Install the required packages from the `requirements.txt` file:
 
 `pip install -r requirements.txt`
