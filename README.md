@@ -8,20 +8,20 @@ To run the Game Selector script, you can follow these steps to set up a virtual 
 
 1.  Clone the repository to your local machine:
 
-`git clone https://github.com/your_username/game-selector.git
-cd game-selector`
+`git clone https://github.com/your_username/game-selector.git`
+`cd game-selector`
 
 1.  Set up a virtual environment (optional but recommended):
 
 - On Windows:
 
-`python -m venv venv
-venv\Scripts\activate`
+`python -m venv venv`
+`venv\Scripts\activate`
 
 - On macOS/Linux:
 
-`python3 -m venv venv
-source venv/bin/activate`
+`python3 -m venv venv`
+`source venv/bin/activate`
 
 Save to grepper
 
