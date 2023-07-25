@@ -80,6 +80,10 @@ Run Flappy Bird:
 
 `python .\game_selector.py -g flappy_main.py`
 
+## Gameplay
+
+<img src="flappy-gameplay.png" alt="flappy-gameplay" width=400px />
+
 ## Note
 
 This script relies on the `subprocess` module to execute the games, and it expects the games to be implemented as standalone Python scripts with a '.py' extension.
