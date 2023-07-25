@@ -26,8 +26,6 @@ To run the Game Selector script, you can follow these steps to set up a virtual 
 
 `source venv/bin/activate`
 
-Save to grepper
-
 1.  Install the required packages from the `requirements.txt` file:
 
 `pip install -r requirements.txt`
@@ -78,9 +76,9 @@ Run a specific game (replace `game.py` with the actual filename of the game you 
 
 `python game_selector.py -g game.py`
 
-Run Flappy Bird (if available):
+Run Flappy Bird:
 
-`python game_selector.py`
+`python .\game_selector.py -g flappy_main.py`
 
 ## Note
 
