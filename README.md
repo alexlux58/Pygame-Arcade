@@ -1,6 +1,33 @@
-# Game Selector
+# Python Aracade
 
 This script allows you to select and run Python games from a list of available options. It provides a simple command-line interface to interact with the games.
+
+## Setup
+
+To run the Game Selector script, you can follow these steps to set up a virtual environment and install the required packages:
+
+1.  Clone the repository to your local machine:
+
+`git clone https://github.com/your_username/game-selector.git
+cd game-selector`
+
+1.  Set up a virtual environment (optional but recommended):
+
+- On Windows:
+
+`python -m venv venv
+venv\Scripts\activate`
+
+- On macOS/Linux:
+
+`python3 -m venv venv
+source venv/bin/activate`
+
+Save to grepper
+
+1.  Install the required packages from the `requirements.txt` file:
+
+`pip install -r requirements.txt`
 
 ## Requirements
 
