@@ -1,4 +1,4 @@
-# Python Aracade
+# Python Arcade
 
 This script allows you to select and run Python games from a list of available options. It provides a simple command-line interface to interact with the games.
 
