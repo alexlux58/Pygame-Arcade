@@ -83,10 +83,10 @@ Run Flappy Bird:
 ## Gameplay
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-    <img src="flappy-gameplay.png" alt="flappy-gameplay" width=200px style="padding: 0 1em"/>
-    <img src="pong-gameplay.png" alt="pong-gameplay" width=200px />
-    <img src="snake-gameplay.png" alt="snake-gameplay" width=200px />
-    <img src="cube-gameplay.png" alt="cube-gameplay" width=200px />
+    <img src="flappy-gameplay.png" alt="flappy-gameplay" width=220px style="padding: 0 1em;"/>
+    <img src="pong-gameplay.png" alt="pong-gameplay" width=220px style="padding: 0 1em;"/>
+    <img src="snake-gameplay.png" alt="snake-gameplay" width=220px style="padding: 0 1em;"/>
+    <img src="cube-gameplay.png" alt="cube-gameplay" width=220px style="padding: 0 1em;"/>
 </div>
 
 ## Note
