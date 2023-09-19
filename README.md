@@ -1,4 +1,4 @@
-# Python Arcade
+# PyGame Arcade
 
 Welcome to Pygame Arcade, a collection of Python games that you can run from a simple command-line interface or a GUI. Choose your game and let the fun begin!
 
