@@ -1,6 +1,15 @@
-# Python Aracade
+# Python Arcade
 
 This script allows you to select and run Python games from a list of available options. It provides a simple command-line interface to interact with the games.
+
+## Gameplay
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+    <img src="flappy-gameplay.png" alt="flappy-gameplay" width=200px style="padding: 0 1em;"/>
+    <img src="pong-gameplay.png" alt="pong-gameplay" width=200px style="padding: 0 1em;"/>
+    <img src="snake-gameplay.png" alt="snake-gameplay" width=200px style="padding: 0 1em;"/>
+    <img src="cube-gameplay.png" alt="cube-gameplay" width=200px style="padding: 0 1em;"/>
+</div>
 
 ## Setup
 
@@ -80,14 +89,7 @@ Run Flappy Bird:
 
 `python .\game_selector.py -g flappy_main.py`
 
-## Gameplay
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
-    <img src="flappy-gameplay.png" alt="flappy-gameplay" width=220px style="padding: 0 1em;"/>
-    <img src="pong-gameplay.png" alt="pong-gameplay" width=220px style="padding: 0 1em;"/>
-    <img src="snake-gameplay.png" alt="snake-gameplay" width=220px style="padding: 0 1em;"/>
-    <img src="cube-gameplay.png" alt="cube-gameplay" width=220px style="padding: 0 1em;"/>
-</div>
 
 ## Note
 
