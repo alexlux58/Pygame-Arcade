@@ -4,12 +4,14 @@ This script allows you to select and run Python games from a list of available o
 
 ## Gameplay
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+<img src="PyGame_Arcade.png" alt="PyGame Arcade" />
+
+<!-- <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
     <img src="flappy-gameplay.png" alt="flappy-gameplay" width=200px style="padding: 0 1em;"/>
     <img src="pong-gameplay.png" alt="pong-gameplay" width=200px style="padding: 0 1em;"/>
     <img src="snake-gameplay.png" alt="snake-gameplay" width=200px style="padding: 0 1em;"/>
     <img src="cube-gameplay.png" alt="cube-gameplay" width=200px style="padding: 0 1em;"/>
-</div>
+</div> -->
 
 ## Setup
 
@@ -88,8 +90,6 @@ Run a specific game (replace `game.py` with the actual filename of the game you 
 Run Flappy Bird:
 
 `python .\game_selector.py -g flappy_main.py`
-
-
 
 ## Note
 
