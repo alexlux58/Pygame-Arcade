@@ -1,6 +1,6 @@
 # Python Arcade
 
-This script allows you to select and run Python games from a list of available options. It provides a simple command-line interface to interact with the games.
+Welcome to Pygame Arcade, a collection of Python games that you can run from a simple command-line interface or a GUI. Choose your game and let the fun begin!
 
 ## Gameplay
 
@@ -13,33 +13,50 @@ This script allows you to select and run Python games from a list of available o
     <img src="cube-gameplay.png" alt="cube-gameplay" width=200px style="padding: 0 1em;"/>
 </div> -->
 
+## Table of Contents
+
+- [Setup](#setup)
+- [Requirements](#requirements)
+- [Usage](#usage)
+  - [Command-line Interface](#command-line-interface)
+  - [Graphical User Interface](#graphical-user-interface)
+- [List Available Games](#list-available-games)
+- [Run a Game](#run-a-game)
+- [Examples](#examples)
+- [Note](#note)
+
 ## Setup
 
 To run the Game Selector script, you can follow these steps to set up a virtual environment and install the required packages:
 
-1.  Clone the repository to your local machine:
+1. Clone the repository to your local machine:
 
-`git clone https://github.com/your_username/game-selector.git`
+   ```bash
+   git clone https://github.com/your_username/Pygame-Arcade.git
+   cd Pygame-Arcade
+   ```
 
-`cd game-selector`
+2. Set up a virtual environment (optional but recommended):
 
-1.  Set up a virtual environment (optional but recommended):
+   - On Windows:
 
-- On Windows:
+     ```bash
+     python -m venv venv
+     venv\\Scripts\\activate
+     ```
 
-`python -m venv venv`
+   - On macOS/Linux:
 
-`venv\Scripts\activate`
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
 
-- On macOS/Linux:
+3. Install the required packages:
 
-`python3 -m venv venv`
-
-`source venv/bin/activate`
-
-1.  Install the required packages from the `requirements.txt` file:
-
-`pip install -r requirements.txt`
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Requirements
 
@@ -47,9 +64,21 @@ To run the Game Selector script, you can follow these steps to set up a virtual 
 
 ## Usage
 
+You can interact with Pygame Arcade using either the command-line interface or the graphical user interface.
+
+``bash
+python game_selector_gui.py
+
+```
+
+### Command-line Interface
+
 Run the script with the desired command-line arguments to list available games or run a specific game.
 
-`python game_selector.py [-h] [-l] [-g game.py]`
+
+``bash
+python game_selector.py [-h] [-l] [-g game.py]
+```
 
 ### Command-line Arguments
 
